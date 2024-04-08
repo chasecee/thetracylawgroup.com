@@ -1,0 +1,1256 @@
+/*
+Theme Name: Arena Base
+Theme URI: http://themekraft.com/store/_tk-free-wordpress-starter-theme-based-on-twitter-bootstrap/
+Author: ThemeKraft
+Author URI: http://themekraft.com/
+Description: Hi, I am the ultra minimal starter theme _tk, ready for your next awesome WordPress project! I am the most seamless and minimalistic integration of Twitter Bootstrap Framework into the _s starter theme from Automattic, the guys behind WordPress. You can find me on GitHub. Fork me! I'm waiting for you ;)
+Version: 1.1.10
+License: GNU General Public License v3.0 /
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: gray, light, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, sticky-post,  theme-options, threaded-comments, translation-ready
+
+*/
+html {
+    /* text-rendering: optimizeLegibility!important; */
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+body {
+	word-wrap: break-word;
+}
+
+.home header#masthead {
+}
+
+.top_brand {
+    background: white;
+    padding: 2vw 0;
+}
+
+.contact_top {padding-top: 16px;}
+
+.contact_top hr {
+    /* width: 150px; */
+    margin: 10px 0;
+}
+
+.contact_top p {
+    margin: 0;
+    font-size: 90%;
+}
+
+.contact_top .font {
+    font-size: 25px;
+    line-height: 1;
+}
+
+/* HEADER/MENU */
+header{
+    margin: 0px 0 20px;
+}
+
+.breadcrumbs {
+    text-transform: uppercase;
+}
+
+.home .breadcrumbs {
+    display: none!important;
+}
+
+header#masthead {
+    background: black;
+}
+
+.breadcrumbs {
+    margin: 0 0 15px;
+}
+
+.top_brand {
+    /* padding: 15px; */
+}
+
+.navbar-brand>img {}
+.featured_item{
+    width: 19%;
+    float: left;
+    margin: 0 .5%;
+}
+
+.featured_item_img {
+    height: 0;
+    padding-top: 71%;
+    background-size: cover;
+    background-position: 90% 50%;
+}
+
+.feat_row {
+    margin: 0px -0.5%;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.vidbox_array_item_title {
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+h4.vidbox_array_item_title:before {
+    border: 10px solid transparent;
+    content: ' ';
+    position: absolute;
+    border-bottom-color: white;
+    top: -19px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.vidbox {
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+
+.vidbox a:hover {
+    text-decoration: none;
+}
+
+.vidbox-media {
+    line-height: 0;
+}
+
+.mainfix .col-sm-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mainfix.row {
+    margin: 0 -5px;
+}
+
+.vidbox-media .cls_vidbox_btn_vds {
+    display: block;
+}
+
+a#vidbox_btn_vds video {
+    position: relative;
+    z-index: 1;
+    display: block;
+    height: auto!important;
+}
+
+.feat_row h4 {
+    margin: 10px 0 0;
+    font-size: 22px;
+}
+.slide_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.rsVideoContainer {
+    z-index: 2;
+}
+.slider_center{
+    vertical-align: middle;
+    display: table-cell;
+}
+.slide_bg{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.slide_bg h1 {
+    color: #FF1D25;
+    margin-bottom: 15px;
+    font-weight: inherit;
+    margin: 0;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 100;
+}
+
+.slide_bg h3 {
+    font-size: 24px;
+}
+.side-content {
+    position: relative;
+    border-left: 1px solid #DDDDDD;
+}
+
+.rsUni .rsBullets {
+    text-align: right;
+    display: none;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.widget-title {
+    display: none;
+}
+
+.menu .sub-menu a {padding-left: 45px;background: #3c3c3c;}
+.menu .sub-menu .sub-menu a {padding-left: 55px;background: #7F7F7F;}
+.menu .sub-menu .sub-menu .sub-menu a {padding-left: 65px;background:#B2B2B2;}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.navbar-brand {
+    padding: 0;
+    height: auto;
+}
+
+.navbar-brand>img {
+    max-width: 208px;
+    display: block;
+    width: 16.2vw;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0.7em 0.5em;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: whitesmoke;
+    background: rgba(255, 255, 255, 0.12);
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: whitesmoke;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.navbar-default .navbar-nav>li.active>a{
+    background-color: rgba(255, 255, 255, 0.28);
+    color: white;
+}
+.navbar-default .navbar-nav>li.active>a:hover,
+.navbar-default .navbar-nav>li.active>a:focus{
+	background-color: rgba(255, 255, 255, 0.34);
+	color: white;
+}
+#masthead .navbar{
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    margin: 0;
+}
+.bg{
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 150px 0;
+}
+
+.bg.main h1 {
+    /* margin: 0; */
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+.site-footer{background: black;color: white;}
+/* Images and wp-captions should always fit and be responsive */
+img {
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+img[class*="wp-image-"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+.wp-caption.aligncenter {
+	margin-bottom: 10px;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+}
+.wp-caption .wp-caption-text {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* WP Gallery */
+.gallery {
+	margin-bottom: 1.5em;
+}
+.gallery a img {
+	border: none;
+	height: auto;
+	max-width: 90%;
+}
+.gallery dd {
+	margin: 0;
+}
+.gallery-caption {
+	display: block;
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+
+/* Content */
+.main-content-inner {
+	padding-bottom: 1.5em;
+}
+.hentry {
+	margin: 0 0 1.5em;
+}
+.sticky {
+	display: block;
+}
+.bypostauthor {
+	display: block;
+}
+
+
+/* Clearing */
+.clear {
+	clear: both;
+}
+
+/* Navigation */
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:active>.dropdown-menu, .dropdown-submenu:hover>.dropdown-menu {
+display: block;
+}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:active>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
+
+/* Here some needed widget styles
+ * Most widgets are adapted in the file bootstrap-wp.js - and REALLY easy to modify! ;) */
+.widget { margin-bottom: 2em; }
+.widget_nav_menu ul.sub-menu li, .widget_pages ul.children li { padding-left: 15px; }
+
+/* Hiding the search widget's button in widgets. thats just too old-skool. :) but if you want it back, just delete the next line.
+ * Note: you can change the whole appearance of the search_form() function in our searchform.php */
+.widget_search .search-form input[type="submit"] { display: none; }
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	max-width: 100%;
+}
+
+* Some WP Theme Repository requirements
+*/
+
+.sticky {
+}
+
+.gallery-caption {
+
+}
+
+.bypostauthor {
+
+}
+
+.entry-meta {
+	clear: both;
+}
+
+.dropdown-menu li a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: nowrap;
+}
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #357ebd;
+	background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));
+	background-image: -webkit-linear-gradient(top, #428bca, 0%, #357ebd, 100%);
+	background-image: -moz-linear-gradient(top, #428bca 0%, #357ebd 100%);
+	background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
+}
+.dropdown-menu ul { list-style: none; }
+
+/* ------------------------------------
+Gravity Forms Bootstrap
+---------------------------------------*/
+.gform_wrapper ul.gform_fields{margin-right: -5px;margin-left: -5px;}
+.gform_wrapper label{display: none;}
+
+.gform_wrapper .file label {
+    display: block;
+    cursor: pointer;
+}
+
+.ginput_container_fileupload input[type=file] {
+}
+
+.ginput_container_fileupload input[type=file]:hover,.ginput_container_fileupload input[type=file]:focus {
+    /* box-shadow: none!Important; */
+}
+.gform_fields>li{
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.gform_wrapper ul { padding-left: 0; list-style: none ; margin: 0;}
+.ginput_complex {overflow:hidden;margin-left: -5px;margin-right: -5px;}
+
+.ginput_container_address label,.ginput_container_date label {
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+}
+
+.clear-multi .ginput_container {
+    width: 33.33333%;
+    float: left;
+    padding: 0 5px;
+}
+
+.gfield_time_hour {
+    position: relative;
+}
+
+.gfield_time_hour i {
+    position: absolute;
+    top: 10px;
+    right: -2px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.clear-multi {
+    margin: 0 -5px;
+}
+
+.ginput_complex.ginput_container_address span:last-of-type {margin-bottom: 0;}
+
+ul.gfield_radio,ul.gfield_checkbox {
+    clear: both;
+}
+
+ul.gfield_radio label, ul.gfield_checkbox label {
+    display: inline-block;
+    cursor: pointer;
+}
+.gform_wrapper li {margin-bottom: 20px;}
+
+.gfield_error .validation_message {
+    position: absolute;
+    font-size: 11px;
+    background: black;
+    color: white;
+    bottom: -17px;
+    letter-spacing: 0.03em;
+    padding: 0px 5px;
+    border-radius: 3px;
+    width: 120px;
+    text-align: center;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.gfield_error .validation_message:before {content: ' ';width: 0;height: 0;position: absolute;top: -5px;left: 50%;margin-left: -5px;border-color: transparent;border-style: solid;border-width: 0 5px 5px;border-bottom-color: #000;}
+
+.gform_wrapper form { margin-bottom: 0 }
+
+.gf_progressbar {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.gf_progressbar_percentage {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+.gf_progressbar_percentage.percentbar_0 {
+    color: black;
+    min-width: 3.1%;
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 5px;
+}
+
+.gform_wrapper .gfield_required { padding-left: 1px; color: #b94a48 }
+
+.ginput_container input:not([type='file']), .ginput_container select, .ginput_container textarea {display: block;width: 100%;height: 40px;padding: 6px 12px;font-size: 14px;line-height: 1.428571429;color: #555;vertical-align: middle;background-color: #fff;border: 1px solid #ccc;border-radius: 2px;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+
+.ginput_container_date img.ui-datepicker-trigger {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    padding: 11px 11px 12px;
+    background: red;
+    cursor: pointer;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 0px 2px 2px 0px;
+}
+
+.wire .ginput_container input,.wire .ginput_container select,.wire .ginput_container textarea {
+    background-color: transparent;
+    color: white;
+}
+.ginput_container input:-moz-placeholder, .ginput_container select:-moz-placeholder, .ginput_container textarea:-moz-placeholder {
+    color:#999
+}
+.ginput_container input::-moz-placeholder, .ginput_container select::-moz-placeholder, .ginput_container textarea::-moz-placeholder {
+    color:#999
+}
+.ginput_container input:-ms-input-placeholder, .ginput_container select:-ms-input-placeholder, .ginput_container textarea:-ms-input-placeholder {
+    color:#999
+}
+.ginput_container input::-webkit-input-placeholder, .ginput_container select::-webkit-input-placeholder, .ginput_container textarea::-webkit-input-placeholder {
+    color:#999
+}
+
+.ginput_container input:focus, .ginput_container select:focus, .ginput_container textarea:focus { border-color: #66afe9; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233,0.6); box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233,0.6) }
+
+.ginput_container input[disabled], .ginput_container select[disabled], .ginput_container textarea[disabled], .ginput_container input[readonly], .ginput_container select[readonly], .ginput_container textarea[readonly], fieldset[disabled] .ginput_container input, fieldset[disabled] .ginput_container select, fieldset[disabled] .ginput_container textarea { cursor: not-allowed; background-color: #eee }
+
+textarea.ginput_container input, textarea.ginput_container select, textarea.ginput_container textarea { height: auto }
+
+.ginput_container textarea { height: auto }
+
+.gform_wrapper .button, .gform_button {display: inline-block;padding: 6px 12px;margin-bottom: 0;font-size: 14px;font-weight: normal;line-height: 1.428571429;color: #fff;text-align: center;white-space: nowrap;vertical-align: middle;cursor: pointer;border: 1px solid;border-radius: 4px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;-o-user-select: none;user-select: none;color: #fff;background-color: #337ab7;border-color: #2e6da4;}
+
+.gform_wrapper .button:focus, .gform_button:focus {outline: thin dotted #333;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;color: #fff;background-color: #286090;border-color: #122b40;}
+
+.gform_wrapper .button:hover, .gform_button:hover, .gform_button:focus { text-decoration: none }
+
+.gform_wrapper .button:active, .gform_wrapper .button.active, , .gform_button:active, .gform_button.active { background-image: none; outline: 0; -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125); box-shadow: inset 0 3px 5px rgba(0,0,0,0.125) }
+
+.gform_wrapper .button.disabled, .gform_button.disabled, .gform_button[disabled], fieldset[disabled] .gform_button { pointer-events: none; cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+
+.gform_button:hover, .gform_button:focus, .gform_button:active, .gform_button.active, .open .dropdown-toggle.gform_button {color: #fff;background-color: #286090;border-color: #204d74;}
+
+.gform_button:active, .gform_button.active, .open .dropdown-toggle.gform_button { background-image: none }
+
+.gform_button.disabled, .gform_button[disabled], fieldset[disabled] .gform_button, .gform_button.disabled:hover, .gform_button[disabled]:hover, fieldset[disabled] .gform_button:hover, .gform_button.disabled:focus, .gform_button[disabled]:focus, fieldset[disabled] .gform_button:focus, .gform_button.disabled:active, .gform_button[disabled]:active, fieldset[disabled] .gform_button:active, .gform_button.disabled.active, .gform_button[disabled].active, fieldset[disabled] .gform_button.active { background-color: #428bca; border-color: #357ebd }
+
+.gform_wrapper .gfield_error .gfield_label { color: #b94a48 }
+
+.gform_wrapper .gfield_error input, .gform_wrapper .gfield_error select, .gform_wrapper .gfield_error textarea { color: #b94a48; background-color: #f2dede; border-color: #eed3d7 }
+
+.gform_wrapper .gfield_error input:focus, .gform_wrapper .gfield_error select:focus, .gform_wrapper .gfield_error textarea:focus { border-color: #b94a48; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(185,74,72,0.6); box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(185,74,72,0.6) }
+
+.validation_error { padding: 15px; margin-bottom: 20px; color: #b94a48; background-color: #f2dede; border: 1px solid transparent; border-color: #eed3d7; border-radius: 4px }
+
+.validation_error h4 { margin-top: 0; color: inherit }
+
+.validation_error .alert-link { font-weight: bold }
+
+.validation_error>p, .validation_error>ul { margin-bottom: 0 }
+
+.validation_error>p+p { margin-top: 5px }
+
+.validation_error hr { border-top-color: #e6c1c7 }
+
+.validation_error .alert-link { color: #953b39 }
+
+#gforms_confirmation_message { padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px }
+
+#gforms_confirmation_message h4 { margin-top: 0; color: inherit }
+
+#gforms_confirmation_message .alert-link { font-weight: bold }
+
+#gforms_confirmation_message>p, #gforms_confirmation_message>ul { margin-bottom: 0 }
+
+#gforms_confirmation_message>p+p { margin-top: 5px }
+
+.gfield_label { margin-bottom: 5px; font-size:  14px;}
+
+.ginput_complex > span > label { font-size: 11px; }
+
+
+.gform_validation_container,
+.gform_wrapper .gform_validation_container,
+body .gform_wrapper li.gform_validation_container,
+body .gform_wrapper .gform_body ul.gform_fields li.gfield.gform_validation_container,
+body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
+    display: none !important;
+    position: absolute !important;
+    left: -9000px;
+}
+.gform_fields {
+    overflow: hidden;
+}
+.showlabel label {
+  display: none;
+}
+
+.gform_fileupload_multifile .gform_drop_area {
+    padding: 25px;
+    border: 2px dashed #ddd;
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.gform_wrapper .button.gform_button_select_files {
+    width: 330px;
+    margin: 10px auto;
+    box-shadow: none;
+}
+.wire ::-webkit-input-placeholder { /* WebKit browsers */
+    color:   white!important;
+}
+.wire :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:   white!important;
+   opacity:  1;
+}
+.wire ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:   white!important;
+   opacity:  1;
+}
+.wire :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:   white!important;
+}
+.ginput_complex span {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ginput_complex span.ginput_right {
+    width: 50%;
+    float: left;
+}
+
+.ginput_complex span.ginput_left {
+    width: 50%;
+    float: left;
+}
+.clearboth {
+    clear: both;
+}
+.ui-datepicker{width:216px;height:auto;margin:5px auto 0;font:9pt Arial,sans-serif;-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,.5);-moz-box-shadow:0 0 10px 0 rgba(0,0,0,.5);box-shadow:0 0 10px 0 rgba(0,0,0,.5)}.ui-datepicker a{text-decoration:none}.ui-datepicker table{width:100%;border-collapse:collapse}.ui-datepicker-header{background-color:#5988DA;color:#e0e0e0;font-weight:700;-webkit-box-shadow:inset 0 1px 1px 0 rgba(250,250,250,.2);-moz-box-shadow:inset 0 1px 1px 0 rgba(250,250,250,.2);box-shadow:inset 0 1px 1px 0 rgba(250,250,250,.2);text-shadow:1px -1px 0 #000;filter:dropshadow(color=#000, offx=1, offy=-1);line-height:30px;min-height:30px!important;border-width:1px 0 0;border-style:solid;border-color:#666}.ui-datepicker-title{text-align:center}.ui-datepicker-title select{margin-top:2.5%}.ui-datepicker-next,.ui-datepicker-prev{display:inline-block;width:30px;height:30px;text-align:center;cursor:pointer;background-image: url(/wp-content/themes/arenabase/includes/images/arrow.png);background-repeat:no-repeat;line-height:600%;overflow:hidden;}.ui-datepicker-prev{float:left;background-position:center -30px}.ui-datepicker-next{float:right;background-position:center 0}.ui-datepicker thead{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMWYxZjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background:-moz-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f7f7f7),color-stop(100%,#f1f1f1));background:-webkit-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);background:-o-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);background:-ms-linear-gradient(top,#f7f7f7 0,#f1f1f1 100%);background:linear-gradient(to bottom,#f7f7f7 0,#f1f1f1 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f1f1f1', GradientType=0);border-bottom:1px solid #bbb}.ui-datepicker th{text-transform:uppercase;text-align:center;font-size:6pt;padding:5px 0;color:#666;text-shadow:1px 0 0 #fff;filter:dropshadow(color=#fff, offx=1, offy=0)}.ui-datepicker tbody td{padding:0;border-top:1px solid #bbb;border-right:1px solid #bbb}.ui-datepicker tbody td:last-child{border-right:0}.ui-datepicker tbody tr{border-bottom:1px solid #bbb}.ui-datepicker tbody tr:last-child{border-bottom:0}.ui-datepicker td a,.ui-datepicker td span{display:inline-block;font-weight:700;text-align:center;width:30px;height:30px;line-height:30px;color:#666;text-shadow:1px 1px 0 #fff;filter:dropshadow(color=#fff, offx=1, offy=1)}.ui-datepicker-calendar .ui-state-default{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZWRlZGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background:-moz-linear-gradient(top,#ededed 0,#dedede 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#ededed),color-stop(100%,#dedede));background:-webkit-linear-gradient(top,#ededed 0,#dedede 100%);background:-o-linear-gradient(top,#ededed 0,#dedede 100%);background:-ms-linear-gradient(top,#ededed 0,#dedede 100%);background:linear-gradient(to bottom,#ededed 0,#dedede 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dedede', GradientType=0);-webkit-box-shadow:inset 1px 1px 0 0 rgba(250,250,250,.5);-moz-box-shadow:inset 1px 1px 0 0 rgba(250,250,250,.5);box-shadow:inset 1px 1px 0 0 rgba(250,250,250,.5)}.ui-datepicker-calendar .ui-state-hover{background:#f7f7f7}.ui-datepicker-calendar .ui-state-active{background:#FFF2AA;border:1px solid #c19163;color:#666;-webkit-box-shadow:inset 0 0 10px 0 rgba(0,0,0,.1);-moz-box-shadow:inset 0 0 10px 0 rgba(0,0,0,.1);box-shadow:inset 0 0 10px 0 rgba(0,0,0,.1);text-shadow:0 1px 0 #FFF;filter:dropshadow(color=#FFF, offx=0, offy=1);position:relative;margin:-1px}.ui-datepicker-unselectable .ui-state-default{background:#f4f4f4;color:#b4b3b3}.ui-datepicker-calendar td:first-child .ui-state-active{width:29px;margin-left:0}.ui-datepicker-calendar td:last-child .ui-state-active{width:29px;margin-right:0}.ui-datepicker-calendar tr:last-child .ui-state-active{height:29px;margin-bottom:0}td.ui-datepicker-unselectable.ui-state-disabled{background-color:#d7d7d7}table.ui-datepicker-calendar{margin:0!important}body div#ui-datepicker-div[style]{z-index:9999!important}
+
+.ginput_container input[type=radio], .ginput_container input[type=checkbox] {
+    display: inline-block;
+    width: auto;
+    border: none;
+    box-shadow: none;
+    height: auto;
+    margin: -1px 10px 2px 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+.gform_wrapper .gfield_radio li,.gform_wrapper .gfield_checkbox li {
+    margin: 0;
+}
+.ginput_container .gfield_radio input[type=text], .ginput_container .gfield_checkbox input[type=text] {
+    width: auto;
+    display: inline-block;
+    padding: 4px 12px;
+    height: auto;
+    line-height: 1;
+}
+.gform_wrapper .show_label label {
+    display: inline-block;
+}
+/* ------------------------------------
+END Gravity Forms Bootstrap
+---------------------------------------*/
+
+/*------------------------------------------------*/
+/*-----------------[UTILITY]----------------------*/
+/*------------------------------------------------*/
+.uppercase{text-transform:uppercase;}
+.hider{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+.iconsmall {
+    font-size: 80%;
+}
+
+.padder {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.padder_top {
+    padding-top: 50px;
+}
+.padder_bot {
+    padding-bottom: 50px;
+}
+.padder_lg {
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.padder_lg_bot {
+    padding-bottom: 100px;
+}
+.padder_lg_top {
+    padding-bottom: 100px;
+}
+.padder_sm {
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+.padder_sm_bot {
+    padding-bottom: 25px;
+}
+.padder_sm_top {
+    padding-top:25px;
+}
+a, .transition{-webkit-transition: all .1s ease; -moz-transition: all .1s ease; -o-transition: all .1s ease; transition: all .1s ease;}
+
+/*------------------------------------------------*/
+/*-----------------[ANIMATIONS]-------------------*/
+/*------------------------------------------------*/
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.d1{-webkit-animation-delay: .2s;animation-delay: .2s;}
+.d2{-webkit-animation-delay: .4s;animation-delay: .4s;}
+.d3{-webkit-animation-delay: .6s;animation-delay: .6s;}
+.d4{-webkit-animation-delay: .8s;animation-delay: .8s;}
+.d5{-webkit-animation-delay: 1s;animation-delay: 1s;}
+
+
+
+/*------------------------------------------------*/
+/*--------[PASTE CSS GENERATOR CODE HERE]---------*/
+/*------------------------------------------------*/
+
+body {font-family: "nimbus-sans",sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: "alternate-gothic-no-1-d",sans-serif;text-transform: uppercase;}
+
+.menu {
+    font-size: 14px;
+}
+
+.menu a {
+    background: black;
+    color: white;
+    border-bottom: 1px solid gray;
+    display: block;
+    padding: 10px;
+    padding-left: 40px;
+    position: relative;
+    text-transform: uppercase;
+    outline: none!Important;
+}
+
+.menu a:before {content: ' ';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(255, 255, 255, 0.15);opacity: 0;}
+
+.menu a:hover:before {
+    opacity: 1;
+}
+
+.menu a,.menu a:hover, .menu a:focus {
+    text-decoration: none!important;
+}
+
+.dcjq-parent.active:after {
+}
+
+.dcjq-parent .dcjq-icon {
+        background: url(https://www.redmanmovies.com/wp-content/uploads/2021/07/right-arrow.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .3s ease;
+}
+
+.dcjq-parent.active .dcjq-icon {-ms-transform: rotate(90deg); /* IE 9 */-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */transform: rotate(90deg);}
+
+.sub-menu .dcjq-parent .dcjq-icon {
+    left: 15px;
+}
+
+.sub-menu .sub-menu .dcjq-parent .dcjq-icon {
+    left: 25px;
+}
+.sub-menu .sub-menu .sub-menu .dcjq-parent .dcjq-icon {
+    left: 35px;
+}
+
+.menu li {
+    padding: 0;
+}
+
+.menu li.current-menu-item a {
+}
+
+.menu li.current-menu-item a {
+    color: #fc0011;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.item h2 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 35px;
+}
+.item hr {
+    margin-top: 20px;
+    border: 0;
+}
+.item {
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item_price {
+    padding-top: 10px;
+    display: block;
+}
+
+.item hr {
+    border-bottom: 1px dotted #ccc;
+    margin: 0px 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6, .font,header {
+    font-family: "alternate-gothic-no-1-d",sans-serif;
+}
+a,.pagination>li>a {color: #F44336;}
+.btn-primary, .pagination>.active>span,.pagination>.active>span:hover,.pagination>.active>span:focus,.gform_wrapper .button,.gform_button {background-color:#41bd41; border-color:#41bd41;color:white; }
+.btn-primary:hover, .gform_button:hover, .btn-primary:focus, .gform_button:focus,.gform_wrapper .button:focus {background-color:rgb(102, 203, 102); border-color:rgb(102, 203, 102);color:white; }
+.btn-primary:active,.btn-primary:active:focus, .btn-primary:active:hover, .gform_button:active, .gform_button:active:focus {background-color:rgb(52, 151, 52); border-color:rgb(52, 151, 52);color:white; }
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover, .navbar-toggle {background-color:#41bd41;}
+
+.navbar-default .navbar-toggle {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    border: none;
+    color: white;
+    padding: 10px 0 7px;
+    font-size: 30px;
+    line-height: 1;
+    border-radius: 0;
+    background: black;
+}
+
+.navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+    color: white;
+    background: #383838;
+}
+
+.navbar-collapse {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+/*-----------------[RESPONSIVE]-------------------*/
+/*------------------------------------------------*/
+@media only screen and ( max-width: 1200px ) {
+
+header{}
+
+}
+@media only screen and ( max-width: 992px ) {
+
+header{}
+
+}
+@media only screen and ( max-width: 767px ) {
+
+header{}
+
+.top_brand {
+    padding: 15px 0;
+}
+
+header#masthead {}
+
+.slide_bg h1 {
+    font-size: 30px;
+}
+
+.slide_bg {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#new-royalslider-1 {
+    height: 300px!important;
+}
+
+.navbar-header {
+    float: left;
+    width: 30%;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.contact_top {
+    width: 70%;
+    padding: 0px 0 0;
+}
+
+.navbar-brand>img {
+    width: auto;
+    max-width: 100%;
+}
+
+.navbar-brand {
+    width: 100%;
+}
+
+a.navbar-brand .span {}
+
+    .navbar-icon {
+    /* width: 150px; */
+    /* max-width: 50%; */
+    line-height: 22px;
+    font-size: 22px;
+    padding: 5px 5px 2px;
+    background: transparent;
+    color: black; border-color:black;
+    margin-bottom: 5px;
+}
+
+a.navbar-icon img {
+    width: 15px;
+    position: relative;
+    top: -4px;
+}
+
+.navbar-icon span {
+    /* float: left; */
+    display: inline;
+    font-size:17px!important;
+}
+
+#masthead .navbar {
+    min-height: auto;
+}
+
+}
+@media only screen and ( max-width: 479px ) {
+
+header{}
+
+}
+
+
+
+/*
+ == Quick CSS styling tips ==
+
+ You can start off in a rough direction with some minimal styles.
+ See below for some tips. ;)
+
+
+ == Want to have the whole site wrapped? ==
+
+ Just fill the .container class with some background color to have a the whole site "wrapped".
+ This works so easy because every main part is wrapped only once into a container class by bootstrap.
+ Try out by decommenting the next line and go from there.
+
+ .container { background: #f9f9f9; border-right: 1px solid #eee; border-left: 1px solid #eee; }
+
+
+ == Want to wrap just the content and sidebar in Bootstrap style? ==
+
+ That one is a great example to show that some things are much cleaner and easier to do via just adding some HTML classes.
+ In this case, we will add just one CSS class "panel", look for example at the beginning in content.php!
+
+
+ == Infinite Scrolling by Jetpack ==
+ You can enable this cool feature by simply decommenting the lines below and make sure you use the same classes on the right place in your html..
+
+/* Globally hidden elements when Infinite Scroll is supported and in use.
+ * Older / Newer Posts Navigation (the pagination, must always be hidden), Theme Footer only when set to scrolling.. */
+
+/*
+.infinite-scroll .page-links,
+.infinite-scroll.neverending .site-footer {
+	display: none;
+}
+*/
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
+
+/*
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+*/
+
+/* Hey, if you don't need my comments anymore, just delete me! :)  */
